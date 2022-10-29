@@ -1,0 +1,76 @@
+.blog {
+    font-family:cursive;
+    margin-left: 50%;
+}
+
+.nome {
+    font-family:cursive;
+    font-size: large;
+    background-color: tomato;   
+    height: 20px;
+    width: 230px;
+    margin: 20px 2% 20px 0px;
+}
+
+.curso {
+    font-family:cursive;
+    font-size: large;
+    background-color: tomato;   
+    height: 20px;
+    width: 230px;
+    margin: 20px 2% 20px 0px;
+}
+
+.nascimento {
+    font-family:cursive;
+    font-size: large;
+    background-color: tomato;   
+    height: 20px;
+    width: 230px;
+    margin: 20px 2% 20px 0px;
+}
+
+.atualizacao {
+    font-family:cursive;
+    font-size: large;
+    background-color: tomato;   
+    height: 55px;
+    width: 230px;
+    margin: 20px 2% 20px 0px;
+}
+
+.rotina {
+    font-family:cursive;
+    font-size: large;
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    margin: 20px 2% 20px 0px;
+}
+
+.hobbies {
+    font-family:cursive;
+    font-size: large;
+    background-color:blueviolet;
+    height: 400px;
+    width: 300px;
+    margin: 20px 2% 20px 0px;
+}
+
+.artistas {
+    font-family:cursive;
+    font-size: large;
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    margin: 20px 2% 20px 0px;
+}
+
+.viagens {
+    font-family:cursive;
+    font-size: large;
+    background-color:blueviolet;
+    height: 400px;
+    width: 300px;
+    margin: 20px 2% 20px 0px;
+}
