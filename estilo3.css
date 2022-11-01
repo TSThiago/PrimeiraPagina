@@ -1,0 +1,19 @@
+.cabecalho {
+    max-width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: tomato;
+}
+
+.conteudo {
+    max-width: 90vw;
+    margin:30px auto;
+}
+
+.caixa {
+    width: 25vw;
+    height: 15vh;
+    margin: 1vh 2.5vw;
+    background-color: aqua;
+    float: left
+}
