@@ -1,104 +1,54 @@
-.cabecalho1{
-    display: flex;
-    flex-direction:inherit;
-    justify-content: center;
-    
-}
-
-.cabecalho2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.topicos1{
-    display: flex;
-    flex-direction:inherit;
-    justify-content: center;
-}
-
-.topicos2{
-    display: flex;
-    flex-direction:inherit;
-    justify-content: center;
-}
-
 .blog {
-    font-family:cursive;
-    /* margin-left: 50%; */
-    display: flex;
-    flex-direction:inherit;
-    justify-content: center;
+    font-family: monospace;
+    font-size:x-large;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.nome {
-    font-family:cursive;
+.cabecalho {
+    font-family: monospace;
     font-size: large;
-    background-color: tomato;   
-    height: 30px;
-    width: 230px;
-    margin: 20px 2% 20px 0px;
+    max-width: 50vw;
+    height: 20vh;
+    margin: 0 auto;
 }
 
-.curso {
-    font-family:cursive;
-    font-size: large;
-    background-color: tomato;   
-    height: 30px;
-    width: 230px;
-    margin: 20px 2% 20px 0px;
+.caixa1 {
+    width: 20vw;
+    height: 4vh;
+    margin: 1vh 2.5vw;
+    float: left;
+    background-color: tomato;
 }
 
-.nascimento {
-    font-family:cursive;
+.topicos {
+    font-family: monospace;
     font-size: large;
-    background-color: tomato;   
-    height: 30px;
-    width: 230px;
-    margin: 20px 2% 20px 0px;
+    max-width: 50vw;
+    max-height: 100vh;
+    margin: 0 auto;
 }
 
-.atualizacao {
-    font-family:cursive;
-    font-size: large;
-    background-color: tomato;   
-    height: 55px;
-    width: 230px;
-    margin: 20px 2% 20px 0px;
-}
-
-.rotina {
-    font-family:cursive;
-    font-size: large;
+.caixa2 {
+    text-align:justify;
+    width: 20vw;
+    height: 45vh;
+    margin: 2.5vh 2.5vw;
     background-color: aqua;
-    height: 450px;
-    width: 300px;
-    margin: 20px 2% 20px 0px;
+    float: left
 }
 
-.hobbies {
-    font-family:cursive;
-    font-size: large;
+.caixa3 {
+    text-align:justify;
+    width: 20vw;
+    height: 45vh;
+    margin: 2.5vh 2.5vw;
     background-color:blueviolet;
-    height: 450px;
-    width: 300px;
-    margin: 20px 2% 20px 0px;
+    float: left
 }
 
-.artistas {
-    font-family:cursive;
-    font-size: large;
-    background-color: aqua;
-    height: 450px;
-    width: 300px;
-    margin: 20px 2% 20px 0px;
-}
-
-.viagens {
-    font-family:cursive;
-    font-size: large;
-    background-color:blueviolet;
-    height: 450px;
-    width: 300px;
-    margin: 20px 2% 20px 0px;
+.ancora {
+    width: 100%;
+    float:left;
 }
