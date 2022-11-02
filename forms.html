@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Carros</title>
+</head>
+<body>
+    <div>
+        <label for="modeloCarro">Modelo:</label>
+        <input type="text" name="modelo" placeholder="Ex: Fiesta" id="modeloCarro" />
+    </div>
+    <div>
+        <label for="marcaCarro">Marca:</label>
+        <input type="text" name="marca" placeholder="Ex: Ford" id="marcaCarro" />
+    </div>
+    <div>
+        <label for="anoCarro">Ano:</label>
+        <input type="number" name="ano" placeholder="Ex: 2012" id="anoCarro" />
+    </div>
+    <div>
+        <label for="quilometragemCarro">Quilometragem:</label>
+        <input type="number" name="quilometragem" placeholder="Ex: 150000" id="quilometragemCarro" />
+    </div>
+    <div>
+        <label for="valorCarro">Valor:</label>
+        <input type="text" name="valor" placeholder="Ex: 12000" id="valorCarro" />
+    </div>
+    <div>
+        <span>Estado do Carro: </span>
+        <label for="estadoCarro">Novo</label>
+        <input type="radio" name="estado" id="estadoCarro" />
+        <label for="estadoCarro">Velho</label>
+        <input type="radio" name="estado" id="estadoCarro" />
+    </div>
+    <div>
+        <span>Adicionais do Carro: </span>
+        <label for="adicionaisCarro">Ar-Condicionado</label>
+        <input type="checkbox" name="adicional" id="adicionaisCarro" />
+        <label for="adicionaisCarro">AirBag</label>
+        <input type="checkbox" name="adicional" if="adicionaisCarro" />
+        <label for="adicionaisCarro">Alarme</label>
+        <input type="checkbox" name="adicional" if="adicionaisCarro" />
+        <label for="adicionaisCarro">Teto Solar</label>
+        <input type="checkbox" name="adicional" if="adicionaisCarro" />
+    </div>
+    <div>
+        <span>Final da Placa:</span>
+        <select name="finalPlaca">
+            <option value="final 0" selected>0</option>
+            <option value="final 1">1</option>
+            <option value="final 2">2</option>
+            <option value="final 3">3</option>
+            <option value="final 4">4</option>
+            <option value="final 5">5</option>
+            <option value="final 6">6</option>
+            <option value="final 7">7</option>
+            <option value="final 8">8</option>
+            <option value="final 9">9</option>
+          </select>
+    </div>
+    <div>
+        <button type="submit">Enviar</button>  
+    </div>
+
+</body>
+</html>
